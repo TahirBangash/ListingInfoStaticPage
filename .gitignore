@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+*.venv
+Pipfile
+Pipfile.lock
+
+# Logs and databases
+*.log
+logs/
+*.sqlite
+instance/
+
+# Environment variables
+.env
+.env.*
+
+# Flask cache and session files
+*.bak
+*.swp
+*.swo
+*.pid
+
+# Pytest cache
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# MacOS system files
+.DS_Store
+
+# PyCharm settings
+.idea/
+
+# Compiled C extensions
+*.so
+
+# Deployment files
+*.bak
+*.swp
+*.swo
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Ignore gunicorn logs
+gunicorn.error.log
+gunicorn.access.log
